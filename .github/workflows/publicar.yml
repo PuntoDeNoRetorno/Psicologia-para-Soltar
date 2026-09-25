@@ -2,10 +2,11 @@ name: Publicar en Facebook
 
 on:
   schedule:
-    - cron: "0 11 * * *"
-    - cron: "0 14 * * *"
-    - cron: "0 23 * * *"
-    - cron: "0 2 * * *"
+    # Horarios en UTC (Argentina = UTC-3)
+    - cron: "15 12 * * *"   # 09:15 ARG - dia (beige)
+    - cron: "45 15 * * *"   # 12:45 ARG - dia (beige)
+    - cron: "30 22 * * *"   # 19:30 ARG - noche (negro)
+    - cron: "30 1 * * *"    # 22:30 ARG - noche (negro)
   workflow_dispatch:
     inputs:
       franja:

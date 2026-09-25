@@ -1,0 +1,11 @@
+{
+  "nombre_pagina": "NOMBRE DE LA PÁGINA",
+  "utc_offset": -3,
+  "rama": "main",
+  "umbral_brillo": 110,
+  "hora_inicio_dia": 5,
+  "hora_fin_dia": 17,
+  "publicaciones_por_franja_por_dia": 2,
+  "alerta_dias_restantes": 3,
+  "distancia_max_imagen_duplicada": 6
+}

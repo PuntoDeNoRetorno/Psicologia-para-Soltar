@@ -46,5 +46,89 @@
     "estado": "pendiente",
     "agregada": "2026-09-25T18:45:03-03:00",
     "intentos": 0
+  },
+  {
+    "id": "20260925-192821-b19cee",
+    "archivo": "20260925-192821-b19cee.jpg",
+    "franja": "noche",
+    "brillo": 10.8,
+    "texto": "Poner un límite no es alejar gente, es acercarte a vos. ¿Qué límite te costó más poner?",
+    "hash_imagen": "0000000000000000000000007fee7fff0fe90fe0000000000000000000000000",
+    "hash_texto": "f4fecb1c99464e9e",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:21-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192823-5e5c8d",
+    "archivo": "20260925-192823-5e5c8d.jpg",
+    "franja": "dia",
+    "brillo": 235.0,
+    "texto": "El amor real no te deja con la cabeza a mil a las 3am. Te da paz. Si te confunde, no es ahí.",
+    "hash_imagen": "ffffffffffffffffffffe003c003c003c003f007e007f4dfffffffffffffffff",
+    "hash_texto": "3f29d5eca1985cbc",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:23-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192825-73d245",
+    "archivo": "20260925-192825-73d245.jpg",
+    "franja": "dia",
+    "brillo": 235.9,
+    "texto": "Para esos días donde te olvidas de lo valiosa que sos. Guardalo y volvé cuando lo necesites.",
+    "hash_imagen": "ffffffffffffffffffffffff80810001e00ff00fffffffffffffffffffffffff",
+    "hash_texto": "9feffb7fd255a440",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:25-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192827-6d3cc8",
+    "archivo": "20260925-192827-6d3cc8.jpg",
+    "franja": "dia",
+    "brillo": 237.4,
+    "texto": "Cuando empezás a elegirte, incomodás. Y es buena señal. ¿A quién incomodaste por ponerte primero?",
+    "hash_imagen": "ffffffffffffffffffffffff80018001c003f81ffbffffffffffffffffffffff",
+    "hash_texto": "259dfbeccce5806c",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:27-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192829-d38df1",
+    "archivo": "20260925-192829-d38df1.jpg",
+    "franja": "noche",
+    "brillo": 9.5,
+    "texto": "Tener razón pero perder tu paz no es ganar. ¿Qué preferís hoy: paz o razón?",
+    "hash_imagen": "0000000000000000000000007ffc7ffe7ffe7ff005c000000000000000000000",
+    "hash_texto": "d51f0ed960fdbd6e",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:29-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192831-decd8a",
+    "archivo": "20260925-192831-decd8a.jpg",
+    "franja": "noche",
+    "brillo": 8.0,
+    "texto": "Pregunta fuerte para esta noche. ¿Qué te dolió más? Te leo sin juzgar abajo.",
+    "hash_imagen": "000000000000000020007ffc3ffc7ffe7ffe7ffe7fe07fe00000000000000000",
+    "hash_texto": "3da3c2e0a4ac11b3",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:31-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-192833-581108",
+    "archivo": "20260925-192833-581108.jpg",
+    "franja": "noche",
+    "brillo": 46.1,
+    "texto": "Sostener lo que te lastima no es amor, es costumbre. ¿Cuánto hace que lo venís sosteniendo?",
+    "hash_imagen": "0000000000000004000040407ffe7ffe7ffe000000000000000107e003200000",
+    "hash_texto": "9bb93466259285aa",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T19:28:33-03:00",
+    "intentos": 0
   }
 ]

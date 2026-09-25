@@ -1,0 +1,63 @@
+name: Publicar en Facebook
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 23 * * *"
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      franja:
+        description: "Franja a publicar"
+        type: choice
+        options: [auto, dia, noche]
+        default: auto
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-cola
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Leer Telegram antes de publicar
+        continue-on-error: true
+        run: python bot/ingest.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Subir imagenes nuevas
+        run: |
+          git config user.name "bot-cola"
+          git config user.email "bot-cola@users.noreply.github.com"
+          git add -A data media
+          git diff --cached --quiet || (git commit -m "Ingesta previa" && git pull --rebase && git push)
+
+      - name: Publicar
+        run: python bot/publish.py ${{ github.event.inputs.franja != 'auto' && github.event.inputs.franja || '' }}
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Marcar como publicada
+        if: always()
+        run: |
+          git add -A data media
+          git diff --cached --quiet && exit 0
+          git commit -m "Publicacion $(date -u '+%F %H:%M')"
+          git pull --rebase && git push

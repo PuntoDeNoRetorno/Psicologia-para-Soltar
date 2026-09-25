@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "20260925-184458-4e8604",
+    "archivo": "20260925-184458-4e8604.jpg",
+    "franja": "noche",
+    "brillo": 13.1,
+    "texto": "Soltar no es rendirse. Es entender que hay cosas que pesan más de lo que valen. ¿Qué estás sosteniendo hoy?",
+    "hash_imagen": "0000000000000000000000003ffc1ffc1ff807c000000000000007e000000000",
+    "hash_texto": "f7e16a58880ef7bc",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T18:44:58-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-184459-0f8359",
+    "archivo": "20260925-184459-0f8359.jpg",
+    "franja": "dia",
+    "brillo": 242.7,
+    "texto": "Si hoy no podés con todo, está bien. Descansar también es parte de sanar. Guardalo para cuando lo necesites.",
+    "hash_imagen": "ffffffffffffffffffffffff80018001f00ffffffffffffffffff81ff81fffff",
+    "hash_texto": "22fd1441f54e3c50",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T18:44:59-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-184501-822660",
+    "archivo": "20260925-184501-822660.jpg",
+    "franja": "noche",
+    "brillo": 6.8,
+    "texto": "El corazón a veces hace inventario sin avisar. ¿Te pasó?",
+    "hash_imagen": "0000000000000000000000003ffc7ffe7ffe3ffc03e000000000000000000000",
+    "hash_texto": "395ad5c28fbabd1c",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T18:45:01-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260925-184503-6f3916",
+    "archivo": "20260925-184503-6f3916.jpg",
+    "franja": "dia",
+    "brillo": 236.2,
+    "texto": "Ansiedad, insomnio, dolor de espalda... a veces es lo no dicho. ¿Qué no estás expresando?",
+    "hash_imagen": "ffffffffffffffffffff82038003803f803f8001fdffffffffffffffffffffff",
+    "hash_texto": "0fbb80137f2b8747",
+    "estado": "pendiente",
+    "agregada": "2026-09-25T18:45:03-03:00",
+    "intentos": 0
+  }
+]

@@ -7,9 +7,11 @@
     "texto": "Soltar no es rendirse. Es entender que hay cosas que pesan más de lo que valen. ¿Qué estás sosteniendo hoy?",
     "hash_imagen": "0000000000000000000000003ffc1ffc1ff807c000000000000007e000000000",
     "hash_texto": "f7e16a58880ef7bc",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T18:44:58-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-25T19:37:51-03:00",
+    "buffer_id": "6ab6f7ba84e8fc26af184737"
   },
   {
     "id": "20260925-184459-0f8359",

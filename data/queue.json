@@ -21,9 +21,11 @@
     "texto": "Si hoy no podés con todo, está bien. Descansar también es parte de sanar. Guardalo para cuando lo necesites.",
     "hash_imagen": "ffffffffffffffffffffffff80018001f00ffffffffffffffffff81ff81fffff",
     "hash_texto": "22fd1441f54e3c50",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T18:44:59-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-26T09:30:57-03:00",
+    "buffer_id": "6ab7bafe3d66d464e5af9121"
   },
   {
     "id": "20260925-184501-822660",

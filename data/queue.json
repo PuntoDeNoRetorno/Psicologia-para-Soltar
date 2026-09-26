@@ -49,9 +49,11 @@
     "texto": "Ansiedad, insomnio, dolor de espalda... a veces es lo no dicho. ¿Qué no estás expresando?",
     "hash_imagen": "ffffffffffffffffffff82038003803f803f8001fdffffffffffffffffffffff",
     "hash_texto": "0fbb80137f2b8747",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T18:45:03-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-26T12:49:20-03:00",
+    "buffer_id": "6ab7e97c3d66d464e5b527ea"
   },
   {
     "id": "20260925-192821-b19cee",

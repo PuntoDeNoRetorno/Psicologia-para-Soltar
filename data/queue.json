@@ -63,9 +63,11 @@
     "texto": "Poner un límite no es alejar gente, es acercarte a vos. ¿Qué límite te costó más poner?",
     "hash_imagen": "0000000000000000000000007fee7fff0fe90fe0000000000000000000000000",
     "hash_texto": "f4fecb1c99464e9e",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:21-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-26T19:37:15-03:00",
+    "buffer_id": "6ab849164b4b9f2c1c5a4f31"
   },
   {
     "id": "20260925-192823-5e5c8d",

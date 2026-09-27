@@ -91,9 +91,11 @@
     "texto": "Para esos días donde te olvidas de lo valiosa que sos. Guardalo y volvé cuando lo necesites.",
     "hash_imagen": "ffffffffffffffffffffffff80810001e00ff00fffffffffffffffffffffffff",
     "hash_texto": "9feffb7fd255a440",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:25-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-27T12:48:45-03:00",
+    "buffer_id": "6ab93ada612c9e6ac92a378a"
   },
   {
     "id": "20260925-192827-6d3cc8",

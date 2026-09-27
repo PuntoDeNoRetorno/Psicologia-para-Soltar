@@ -77,9 +77,11 @@
     "texto": "El amor real no te deja con la cabeza a mil a las 3am. Te da paz. Si te confunde, no es ahí.",
     "hash_imagen": "ffffffffffffffffffffe003c003c003c003f007e007f4dfffffffffffffffff",
     "hash_texto": "3f29d5eca1985cbc",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:23-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-27T09:32:10-03:00",
+    "buffer_id": "6ab90cc51bf030e330a6d9fe"
   },
   {
     "id": "20260925-192825-73d245",

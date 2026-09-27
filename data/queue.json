@@ -113,9 +113,11 @@
     "texto": "Tener razón pero perder tu paz no es ganar. ¿Qué preferís hoy: paz o razón?",
     "hash_imagen": "0000000000000000000000007ffc7ffe7ffe7ff005c000000000000000000000",
     "hash_texto": "d51f0ed960fdbd6e",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:29-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-26T22:40:47-03:00",
+    "buffer_id": "6ab87419ccccb9429c4042f0"
   },
   {
     "id": "20260925-192831-decd8a",

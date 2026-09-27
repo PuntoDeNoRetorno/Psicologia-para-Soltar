@@ -131,9 +131,11 @@
     "texto": "Pregunta fuerte para esta noche. ¿Qué te dolió más? Te leo sin juzgar abajo.",
     "hash_imagen": "000000000000000020007ffc3ffc7ffe7ffe7ffe7fe07fe00000000000000000",
     "hash_texto": "3da3c2e0a4ac11b3",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:31-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-27T19:38:37-03:00",
+    "buffer_id": "6ab99ae954f1e60c7e7d91cc"
   },
   {
     "id": "20260925-192833-581108",

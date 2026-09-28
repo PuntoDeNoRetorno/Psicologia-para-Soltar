@@ -145,9 +145,11 @@
     "texto": "Sostener lo que te lastima no es amor, es costumbre. ¿Cuánto hace que lo venís sosteniendo?",
     "hash_imagen": "0000000000000004000040407ffe7ffe7ffe000000000000000107e003200000",
     "hash_texto": "9bb93466259285aa",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:33-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-27T22:41:36-03:00",
+    "buffer_id": "6ab9c5cb82dee5c85bd1e923"
   },
   {
     "id": "20260926-202705-d21a47",

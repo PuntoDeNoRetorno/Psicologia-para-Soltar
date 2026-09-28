@@ -197,9 +197,11 @@
     "texto": "El amor no te hace dudar de vos. Te hace sentir seguro. Si dudás de tu valor ahí, no es amor, es apego. ¿Te pasó?",
     "hash_imagen": "0000000000000000000000007fff7fff7ffc7ffc000000000000000000000000",
     "hash_texto": "a48223329b614993",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:10-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-28T19:37:15-03:00",
+    "buffer_id": "6abaec17b6b2614895857236"
   },
   {
     "id": "20260926-202711-e16a0c",

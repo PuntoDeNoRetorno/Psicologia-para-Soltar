@@ -105,9 +105,11 @@
     "texto": "Cuando empezás a elegirte, incomodás. Y es buena señal. ¿A quién incomodaste por ponerte primero?",
     "hash_imagen": "ffffffffffffffffffffffff80018001c003f81ffbffffffffffffffffffffff",
     "hash_texto": "259dfbeccce5806c",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-25T19:28:27-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-28T09:36:12-03:00",
+    "buffer_id": "6aba5f38d36ffddd9c417d3d"
   },
   {
     "id": "20260925-192829-d38df1",

@@ -209,9 +209,11 @@
     "texto": "No tenés que estar bien todo el tiempo. Permitite sentir, llorar, enojarte. También es parte de sanar.",
     "hash_imagen": "ffffffffffffffffffffffffbfcf8001e005e007fffffffffffffffffcbffc3f",
     "hash_texto": "921bdf95ace43d2b",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:11-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-28T12:54:02-03:00",
+    "buffer_id": "6aba8d90e6aae2b16a4bfd6e"
   },
   {
     "id": "20260926-202713-f15777",

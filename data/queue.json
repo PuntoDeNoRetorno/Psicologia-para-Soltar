@@ -490,5 +490,101 @@
     "estado": "pendiente",
     "agregada": "2026-09-27T20:27:24-03:00",
     "intentos": 0
+  },
+  {
+    "id": "20260928-182925-e2838b",
+    "archivo": "20260928-182925-e2838b.jpg",
+    "franja": "dia",
+    "brillo": 234.9,
+    "texto": "No estás perdiendo nada. Estás haciendo espacio. Lo que no te elige, no te merece. Guardá esta si la necesitabas hoy.",
+    "hash_imagen": "ffffffffffffffffffffffffc00300010000fc3fff3ffffffffffffffcbffc3f",
+    "hash_texto": "fe284ab2900a2826",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:25-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182926-717e4b",
+    "archivo": "20260928-182926-717e4b.jpg",
+    "franja": "dia",
+    "brillo": 223.8,
+    "texto": "Cuanto más te elegís, menos extrañás lo que te hacía mal. Esa es la cuenta real.",
+    "hash_imagen": "ffffffffffffffffffff86ff800380038003f00ff00fffffffffffff401f01ff",
+    "hash_texto": "9b606931161c07eb",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:26-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182928-46f119",
+    "archivo": "20260928-182928-46f119.jpg",
+    "franja": "dia",
+    "brillo": 233.0,
+    "texto": "No es frialdad. Es dejar de poner las manos en el fuego esperando que esta vez no queme.",
+    "hash_imagen": "ffffffffffffffffffffc017c003f00f8001c003f81ffffffffffffff83fffff",
+    "hash_texto": "6b39327d6d093e7c",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:28-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182930-f4c969",
+    "archivo": "20260928-182930-f4c969.jpg",
+    "franja": "dia",
+    "brillo": 232.4,
+    "texto": "Hoy no tenés que tener todas las respuestas. Con que no vuelvas a donde te rompiste, ya es un montón.",
+    "hash_imagen": "ffffffffffffffffffffffff80018001c007c007c007fffffffffffffc3ffeff",
+    "hash_texto": "e047a83cd7713108",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:30-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182932-8ba165",
+    "archivo": "20260928-182932-8ba165.jpg",
+    "franja": "noche",
+    "brillo": 4.3,
+    "texto": "El amor no te achica. Te expande. Si ahí te sentís chiquita, insegura y con miedo, no te están amando grande. ¿Te pasó?",
+    "hash_imagen": "000000000000000000000000ffffffff3ffc3ffc000000000000000007e00000",
+    "hash_texto": "8e2ea77b4c287dc8",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:32-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182935-0d5fe0",
+    "archivo": "20260928-182935-0d5fe0.jpg",
+    "franja": "noche",
+    "brillo": 6.0,
+    "texto": "Te acostumbraste tanto al dolor que pensaste que eso era amar. No era. Era apego, costumbre y miedo a irte.",
+    "hash_imagen": "0000000000000000000004007ffe7ffc7ff87ff07ff000000000000003c00000",
+    "hash_texto": "9975c21538c01d24",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:35-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182937-5a4acf",
+    "archivo": "20260928-182937-5a4acf.jpg",
+    "franja": "noche",
+    "brillo": 8.1,
+    "texto": "Quien te quiere te da paz, no un examen diario de autoestima. Si todos los días dudás de tu valor ahí, no es ahí.",
+    "hash_imagen": "0000000000000000000040007ffe3fe03fe03ff8140000000000000007e00000",
+    "hash_texto": "e19c1bad1fa04479",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:37-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260928-182939-a18e70",
+    "archivo": "20260928-182939-a18e70.jpg",
+    "franja": "noche",
+    "brillo": 1.2,
+    "texto": "No fue tu culpa lo que te hicieron. Pero sí es tu responsabilidad no quedarte viviendo ahí para siempre. Hoy empezás a sanar.",
+    "hash_imagen": "0000000000000000000000001ff8ffffffff03c003c00000000007e003c00000",
+    "hash_texto": "4a2c1bad32b6cc38",
+    "estado": "pendiente",
+    "agregada": "2026-09-28T18:29:39-03:00",
+    "intentos": 0
   }
 ]

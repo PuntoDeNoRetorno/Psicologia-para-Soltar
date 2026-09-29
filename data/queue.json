@@ -321,9 +321,11 @@
     "texto": "Si tenés que esconder lo que sentís, lo que llorás o lo que te duele para que se quede, no es amor. ¿Te pasó de tener que esconderte?",
     "hash_imagen": "0000000000000000000000007ffe7ffe7ffe4000000000000000000007e00000",
     "hash_texto": "5533e19f6a51883d",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:28-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-28T22:42:05-03:00",
+    "buffer_id": "6abb176885cca6b12976d61a"
   },
   {
     "id": "20260926-202729-f79396",

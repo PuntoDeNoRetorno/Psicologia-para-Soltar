@@ -239,9 +239,11 @@
     "texto": "Poner un límite no es ser egoísta. Es decir: así sí me puedo querer y quererte. ¿Te costó aprender esto?",
     "hash_imagen": "ffffffffffffffffffffc007c003c003e007c007c003fffffffffffff81fffff",
     "hash_texto": "1901045d07c86fb8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:15-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-29T12:54:17-03:00",
+    "buffer_id": "6abbdf251b456158f9b4a3c9"
   },
   {
     "id": "20260926-202716-010393",

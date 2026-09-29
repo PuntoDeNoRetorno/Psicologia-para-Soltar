@@ -225,9 +225,11 @@
     "texto": "Lo que es para vos te da paz, no ansiedad. No tenés que rogar por lo que es mutuo.",
     "hash_imagen": "ffffffffffffffffffffc003c003c003c003c007ffffffffffffffffffffffff",
     "hash_texto": "f5e0422b7469855e",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:13-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-29T09:36:17-03:00",
+    "buffer_id": "6abbb0bd4561b6e41266f4f5"
   },
   {
     "id": "20260926-202715-5ded6b",

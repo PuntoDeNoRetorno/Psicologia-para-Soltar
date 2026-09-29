@@ -339,9 +339,11 @@
     "texto": "No hiciste escándalo. Te fuiste en silencio. Y aunque nadie lo notó, te salvaste. Esa también es una victoria.",
     "hash_imagen": "0000000000000000000000007ffe3ffe1ff83ffc3dfc00000000000007e00000",
     "hash_texto": "2d2eb44d1fa42e36",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:29-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-29T19:39:04-03:00",
+    "buffer_id": "6abc3e04f3db08ac926a6f6d"
   },
   {
     "id": "20260926-202731-342ef9",

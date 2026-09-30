@@ -253,9 +253,11 @@
     "texto": "No podés controlar lo primero que pensás, pero sí qué pensamiento te quedás alimentando. ¿Cuál vas a soltar hoy?",
     "hash_imagen": "ffffffffffffffffffffffff8001800180018001fffffffffffffffff01ffeff",
     "hash_texto": "a3c45e7519079c90",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:16-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-30T09:39:14-03:00",
+    "buffer_id": "6abd02eedb917fd8b8d084ca"
   },
   {
     "id": "20260926-202718-aecb3d",

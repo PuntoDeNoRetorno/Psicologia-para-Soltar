@@ -371,9 +371,11 @@
     "texto": "La pregunta no es si lo amás. La pregunta es si estando ahí te seguís amando a vos. Si te aleja de vos, no es amor.",
     "hash_imagen": "00000000000000000000776c7ffe0ff00ff00ff00ff000000000000007e00000",
     "hash_texto": "05fb020970293ac2",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:33-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-30T19:40:15-03:00",
+    "buffer_id": "6abd8fcaf245fa4cd534a5b8"
   },
   {
     "id": "20260926-202735-a7d57b",

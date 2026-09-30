@@ -353,9 +353,11 @@
     "texto": "Poner un límite no se pide con perdón. Si lo sentís, lo ponés. El que se enoja porque te cuidás, se estaba beneficiando de que no lo hicieras.",
     "hash_imagen": "0000000000000000000000007ffe7ffe7fe07fe0000000000000000007c00000",
     "hash_texto": "bf1c87ff60b84a0b",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:31-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-29T22:43:10-03:00",
+    "buffer_id": "6abc692ad3050be9e37ce047"
   },
   {
     "id": "20260926-202733-d6c794",

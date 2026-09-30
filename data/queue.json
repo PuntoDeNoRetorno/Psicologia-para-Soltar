@@ -267,9 +267,11 @@
     "texto": "A veces queremos entender todo para recién ahí soltar. Y no funciona así. Soltar es aceptar que no todo tiene explicación. Guardá esta si la necesitabas hoy.",
     "hash_imagen": "ffffffffffffffffffffffff800180018000801f801ffffffffffffff81fffff",
     "hash_texto": "b4309b5d80e1ed57",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:18-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-30T12:54:50-03:00",
+    "buffer_id": "6abd30c6f47c0fef970840bf"
   },
   {
     "id": "20260926-202719-0c2220",

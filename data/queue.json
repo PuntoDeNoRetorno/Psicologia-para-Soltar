@@ -385,9 +385,11 @@
     "texto": "Soltar no es solo dejar a alguien. También es dejar de esperar esa disculpa, ese mensaje, eso que nunca llegó y te tenía atada.",
     "hash_imagen": "0000000000000000000000003ffcffffffff1ff000600000000000000ff00000",
     "hash_texto": "a9daf210ed7b0c4c",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:35-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-09-30T22:43:14-03:00",
+    "buffer_id": "6abdbaae24db200ef442b819"
   },
   {
     "id": "20260927-202707-4893d4",

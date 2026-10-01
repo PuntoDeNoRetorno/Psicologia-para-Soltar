@@ -281,9 +281,11 @@
     "texto": "No es que estés retrocediendo. A veces la vida te pide un paso atrás para tomar más impulso. ¿Lo sentiste así alguna vez?",
     "hash_imagen": "ffffffffffffffffffffffff8001c00380038007c007fffffffffffff81fffff",
     "hash_texto": "455cd5afdcf84d15",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:19-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-01T09:37:26-03:00",
+    "buffer_id": "6abe5403c4f15bf64e1ecd7c"
   },
   {
     "id": "20260926-202721-fee85f",

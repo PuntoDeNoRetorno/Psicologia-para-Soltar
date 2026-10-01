@@ -463,9 +463,11 @@
     "texto": "Te enseñaron a aguantar, a ser fuerte, a quedarte. Pero nunca te enseñaron a irte. Por eso hoy te cuesta tanto soltar. ¿A vos también te enseñaron eso?",
     "hash_imagen": "0000000000000000000002007ffe7ffe17c80ff00ff000000000000003e00300",
     "hash_texto": "0592ed7ed7fd3edb",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:16-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-01T19:39:53-03:00",
+    "buffer_id": "6abee1358bccc8e6415d22f9"
   },
   {
     "id": "20260927-202718-4e70e7",

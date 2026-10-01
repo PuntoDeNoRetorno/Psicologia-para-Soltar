@@ -606,5 +606,89 @@
     "estado": "pendiente",
     "agregada": "2026-09-28T18:29:39-03:00",
     "intentos": 0
+  },
+  {
+    "id": "20260930-233053-9392ef",
+    "archivo": "20260930-233053-9392ef.jpg",
+    "franja": "dia",
+    "brillo": 235.5,
+    "texto": "Soltar no te hace mala persona. Te hace libre. Y quien te quiere, va a entender que a veces soltar también es cuidarte.",
+    "hash_imagen": "ffffffffffffffffffffffff8003c00380038001fffffffffffffffffc3fffff",
+    "hash_texto": "d5b92ad615daf7de",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:30:53-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233055-9e8b82",
+    "archivo": "20260930-233055-9e8b82.jpg",
+    "franja": "dia",
+    "brillo": 234.5,
+    "texto": "Si ya te fuiste de ahí llorando una vez, ¿para qué volver? No romantices el lugar donde te rompiste.",
+    "hash_imagen": "ffffffffffffffffffffffff80018000800f800ffffffffffffffffffffffc3f",
+    "hash_texto": "049f75b009ecbc52",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:30:55-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233057-a7d08d",
+    "archivo": "20260930-233057-a7d08d.jpg",
+    "franja": "dia",
+    "brillo": 232.6,
+    "texto": "No tenés que tener todo resuelto para empezar. Empezás a soltar aunque tengas dudas. La claridad llega después.",
+    "hash_imagen": "ffffffffffffffffffffffff00018001f00ff00ffffffffffffffffff81ffeff",
+    "hash_texto": "f1995bafedabb579",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:30:57-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233100-5040c1",
+    "archivo": "20260930-233100-5040c1.jpg",
+    "franja": "dia",
+    "brillo": 229.9,
+    "texto": "Te merecés paz, no vivir dando explicaciones eternas de por qué te duele lo que te duele.",
+    "hash_imagen": "ffffffffffffffffffffffff96eb8000c007c007fffffffffffffffff81ffc3f",
+    "hash_texto": "e6bab9f8e062accb",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:31:00-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233102-075864",
+    "archivo": "20260930-233102-075864.jpg",
+    "franja": "noche",
+    "brillo": 1.5,
+    "texto": "Si tenés que rogar por lo básico: respeto, tiempo, cariño... no es que le falte amor. Le falta respeto. ¿Cuántas veces rogaste por lo mínimo?",
+    "hash_imagen": "000000000000000000000000ffff7ffe7ff07ff008c000000000000003c00000",
+    "hash_texto": "1fdc75e9814ef5c8",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:31:02-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233106-3e34eb",
+    "archivo": "20260930-233106-3e34eb.jpg",
+    "franja": "noche",
+    "brillo": 0.6,
+    "texto": "No confundas intensidad con amor. Lo intenso engancha, pero también lastima, cansa y confunde. El amor sano da calma.",
+    "hash_imagen": "0000000000000000000000001ff87fffffff0fe0000000000000000007e007e0",
+    "hash_texto": "0fb14a6b5fd16fd9",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:31:06-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20260930-233108-6192fa",
+    "archivo": "20260930-233108-6192fa.jpg",
+    "franja": "noche",
+    "brillo": 0.1,
+    "texto": "Te vas a soltar. Y un día te vas a mirar y te vas a preguntar: ¿por qué no lo hice antes? Guardá esta para cuando dudes.",
+    "hash_imagen": "0000000000000000000000007ffe7ffeffff07e8000000000000000007e00300",
+    "hash_texto": "d895fccfdda0022b",
+    "estado": "pendiente",
+    "agregada": "2026-09-30T23:31:08-03:00",
+    "intentos": 0
   }
 ]

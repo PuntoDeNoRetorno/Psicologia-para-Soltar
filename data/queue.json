@@ -323,9 +323,11 @@
     "texto": "No tenés que perdonar rápido para caer bien. Tu proceso tiene su tiempo y nadie tiene derecho a apurarlo.",
     "hash_imagen": "fffffffffffffffffffff01fc00780038003c003f01ffffffffffffffcffffff",
     "hash_texto": "6b6dd779aef6f042",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:24-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-02T12:54:17-03:00",
+    "buffer_id": "6abfd3a68ab404f933fee4e5"
   },
   {
     "id": "20260926-202728-01e47f",

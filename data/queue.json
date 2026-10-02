@@ -477,9 +477,11 @@
     "texto": "Si solo aparece cuando siente que te está perdiendo, no es que te extrañe. Es que no quiere perder el control. No es amor.",
     "hash_imagen": "0000000000000000000000003ffc7ffe7ffe7ffe000000000000000007e00000",
     "hash_texto": "bb9941555a895ee0",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:18-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-01T22:43:35-03:00",
+    "buffer_id": "6abf0c43c07bdc2fc26548df"
   },
   {
     "id": "20260927-202720-745397",

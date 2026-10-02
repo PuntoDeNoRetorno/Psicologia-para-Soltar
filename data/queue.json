@@ -495,9 +495,11 @@
     "texto": "Nos vendieron que lo que no te mata te hace más fuerte. Mentira. A veces lo que no te mata solo te deja cansada y con ansiedad. Y también hay que soltar eso.",
     "hash_imagen": "0000000000000000000000007ffe7ffe7c487ffe000000000000000003c00000",
     "hash_texto": "a8acc157a420b5de",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:20-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-02T19:40:11-03:00",
+    "buffer_id": "6ac032c708f9f1f9691bb60c"
   },
   {
     "id": "20260927-202722-7ed497",

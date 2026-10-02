@@ -309,9 +309,11 @@
     "texto": "Dejá de culparte por cómo actuaste cuando no sabías lo que sabés hoy. Hiciste lo que pudiste con lo que tenías.",
     "hash_imagen": "ffffffffffffffffffffffff8001c003c003e007f00ffffffffffffffc3ffc3f",
     "hash_texto": "256a4022f35733e0",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-26T20:27:23-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-02T09:36:10-03:00",
+    "buffer_id": "6abfa53779e44b20b32d897d"
   },
   {
     "id": "20260926-202724-245ba1",

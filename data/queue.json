@@ -407,9 +407,11 @@
     "texto": "Si te cuesta soltarlo, es porque todavía te importa. Y está bien. No te juzgues por sentir. Guardá esta si hoy la necesitás.",
     "hash_imagen": "ffffffffffffffffffffffff8121800180038003fffffffffffffffffcfffc3f",
     "hash_texto": "ff7ed5477000cafc",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:07-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-03T12:06:32-03:00",
+    "buffer_id": "6ac119f53bfd38430fe5f119"
   },
   {
     "id": "20260927-202709-d8af85",

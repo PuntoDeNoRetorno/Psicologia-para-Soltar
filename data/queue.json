@@ -509,9 +509,11 @@
     "texto": "Dejá de rogar. Lo que es mutuo no se pide. No se mendiga atención, tiempo ni amor. Se da solo.",
     "hash_imagen": "000000000000000000001bf01ff87ffe7ffe7ffc060400000000000007e00000",
     "hash_texto": "449ff00ca2dd3e8a",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:22-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-02T22:43:05-03:00",
+    "buffer_id": "6ac05da66b1c05e151e983f7"
   },
   {
     "id": "20260927-202724-a9d8f5",

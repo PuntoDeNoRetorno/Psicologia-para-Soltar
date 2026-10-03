@@ -525,9 +525,11 @@
     "texto": "Te lo prometo: vas a soltar y vas a volver a respirar profundo sin que te duela el pecho. Falta menos de lo que creés.",
     "hash_imagen": "0000000000000000000061807fff7ffe7ffe7ff07ff000000000000007e00000",
     "hash_texto": "c461f89b5d4bba70",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:24-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-03T17:01:30-03:00",
+    "buffer_id": "6ac15f17ad7fd83bc501bc94"
   },
   {
     "id": "20260928-182925-e2838b",

@@ -587,9 +587,11 @@
     "texto": "El amor no te achica. Te expande. Si ahí te sentís chiquita, insegura y con miedo, no te están amando grande. ¿Te pasó?",
     "hash_imagen": "000000000000000000000000ffffffff3ffc3ffc000000000000000007e00000",
     "hash_texto": "8e2ea77b4c287dc8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:32-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-03T23:56:51-03:00",
+    "buffer_id": "6ac1c0705829d2489a01bb4c"
   },
   {
     "id": "20260928-182935-0d5fe0",

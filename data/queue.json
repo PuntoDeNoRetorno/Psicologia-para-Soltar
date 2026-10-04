@@ -631,9 +631,11 @@
     "texto": "No fue tu culpa lo que te hicieron. Pero sí es tu responsabilidad no quedarte viviendo ahí para siempre. Hoy empezás a sanar.",
     "hash_imagen": "0000000000000000000000001ff8ffffffff03c003c00000000007e003c00000",
     "hash_texto": "4a2c1bad32b6cc38",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:39-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-04T19:39:24-03:00",
+    "buffer_id": "6ac2d5985de5ee424c1a5e51"
   },
   {
     "id": "20260930-233053-9392ef",

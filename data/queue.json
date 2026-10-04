@@ -421,9 +421,11 @@
     "texto": "No tenés que llegar a odiar a alguien para poder soltarlo. Podés soltarlo agradeciendo lo que fue y entendiendo que ya no es.",
     "hash_imagen": "ffffffffffffffffffffe007a00780018003c007fffffffffffffffff81fffff",
     "hash_texto": "ea407b480aced71c",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:09-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-04T15:18:29-03:00",
+    "buffer_id": "6ac2987163761da98b57a975"
   },
   {
     "id": "20260927-202711-757e58",

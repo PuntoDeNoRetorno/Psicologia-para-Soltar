@@ -617,9 +617,11 @@
     "texto": "Quien te quiere te da paz, no un examen diario de autoestima. Si todos los días dudás de tu valor ahí, no es ahí.",
     "hash_imagen": "0000000000000000000040007ffe3fe03fe03ff8140000000000000007e00000",
     "hash_texto": "e19c1bad1fa04479",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:37-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-04T17:48:22-03:00",
+    "buffer_id": "6ac2bb91d467abe8cfc6fc30"
   },
   {
     "id": "20260928-182939-a18e70",

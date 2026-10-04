@@ -601,9 +601,11 @@
     "texto": "Te acostumbraste tanto al dolor que pensaste que eso era amar. No era. Era apego, costumbre y miedo a irte.",
     "hash_imagen": "0000000000000000000004007ffe7ffc7ff87ff07ff000000000000003c00000",
     "hash_texto": "9975c21538c01d24",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:35-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-04T01:02:44-03:00",
+    "buffer_id": "6ac1cfe17d53b827e0f9928a"
   },
   {
     "id": "20260928-182937-5a4acf",

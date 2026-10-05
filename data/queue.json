@@ -449,9 +449,11 @@
     "texto": "No es magia. Es orden. El día que te elegís vos, todo lo que no era para vos se empieza a ir solo.",
     "hash_imagen": "ffffffffffffffffffffffff800380018001807feefffffffffffffff81ffeff",
     "hash_texto": "efffcf3463acfa0b",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:13-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-05T12:55:09-03:00",
+    "buffer_id": "6ac3c85aeebb6731f00d3f08"
   },
   {
     "id": "20260927-202715-e54008",

@@ -693,9 +693,11 @@
     "texto": "Si tenés que rogar por lo básico: respeto, tiempo, cariño... no es que le falte amor. Le falta respeto. ¿Cuántas veces rogaste por lo mínimo?",
     "hash_imagen": "000000000000000000000000ffff7ffe7ff07ff008c000000000000003c00000",
     "hash_texto": "1fdc75e9814ef5c8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:31:02-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-04T22:44:20-03:00",
+    "buffer_id": "6ac300f069a169193a55528a"
   },
   {
     "id": "20260930-233106-3e34eb",

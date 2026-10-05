@@ -711,9 +711,11 @@
     "texto": "No confundas intensidad con amor. Lo intenso engancha, pero también lastima, cansa y confunde. El amor sano da calma.",
     "hash_imagen": "0000000000000000000000001ff87fffffff0fe0000000000000000007e007e0",
     "hash_texto": "0fb14a6b5fd16fd9",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:31:06-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-05T19:38:48-03:00",
+    "buffer_id": "6ac426f5a1596ff3fb06367e"
   },
   {
     "id": "20260930-233108-6192fa",

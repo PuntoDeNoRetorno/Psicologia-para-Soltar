@@ -435,9 +435,11 @@
     "texto": "El cierre no te lo va a dar quien te abrió la herida. El cierre te lo das vos el día que dejás de esperar su explicación.",
     "hash_imagen": "ffffffffffffffffffffffffc00780010001f81ffffffffffffffffffc3fffff",
     "hash_texto": "4b36660328ebd849",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-27T20:27:11-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-05T09:38:21-03:00",
+    "buffer_id": "6ac39a3a53279f4f19c19d5e"
   },
   {
     "id": "20260927-202713-b6df5b",

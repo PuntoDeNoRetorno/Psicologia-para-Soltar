@@ -547,9 +547,11 @@
     "texto": "No estás perdiendo nada. Estás haciendo espacio. Lo que no te elige, no te merece. Guardá esta si la necesitabas hoy.",
     "hash_imagen": "ffffffffffffffffffffffffc00300010000fc3fff3ffffffffffffffcbffc3f",
     "hash_texto": "fe284ab2900a2826",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:25-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-06T12:54:50-03:00",
+    "buffer_id": "6ac519c79d95cd853428ebc3"
   },
   {
     "id": "20260928-182926-717e4b",

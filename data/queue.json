@@ -725,9 +725,11 @@
     "texto": "Te vas a soltar. Y un día te vas a mirar y te vas a preguntar: ¿por qué no lo hice antes? Guardá esta para cuando dudes.",
     "hash_imagen": "0000000000000000000000007ffe7ffeffff07e8000000000000000007e00300",
     "hash_texto": "d895fccfdda0022b",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:31:08-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-05T22:42:33-03:00",
+    "buffer_id": "6ac45206032d05299875d618"
   },
   {
     "id": "20261005-143201-8b6cd9",

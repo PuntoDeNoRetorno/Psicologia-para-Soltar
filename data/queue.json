@@ -811,9 +811,11 @@
     "texto": "No vuelvas a pedir migajas en la misma mesa donde lloraste de hambre. Donde tuviste que rogar, no vuelvas.",
     "hash_imagen": "000000000000000000000000ffff7ffe7ffe07e0000000000000000007e007e0",
     "hash_texto": "54a4d5691a36a8ea",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:14-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-07T19:40:58-03:00",
+    "buffer_id": "6ac6ca7595b0fb1c5cbf8645"
   },
   {
     "id": "20261005-143215-03d1bb",

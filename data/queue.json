@@ -575,9 +575,11 @@
     "texto": "No es frialdad. Es dejar de poner las manos en el fuego esperando que esta vez no queme.",
     "hash_imagen": "ffffffffffffffffffffc017c003f00f8001c003f81ffffffffffffff83fffff",
     "hash_texto": "6b39327d6d093e7c",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:28-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-07T12:58:34-03:00",
+    "buffer_id": "6ac66c2734c83ad4924eaf2c"
   },
   {
     "id": "20260928-182930-f4c969",

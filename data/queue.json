@@ -561,9 +561,11 @@
     "texto": "Cuanto más te elegís, menos extrañás lo que te hacía mal. Esa es la cuenta real.",
     "hash_imagen": "ffffffffffffffffffff86ff800380038003f00ff00fffffffffffff401f01ff",
     "hash_texto": "9b606931161c07eb",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:26-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-07T09:38:51-03:00",
+    "buffer_id": "6ac63d578c3015cd3eae59cd"
   },
   {
     "id": "20260928-182928-46f119",

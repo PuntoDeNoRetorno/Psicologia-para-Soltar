@@ -659,9 +659,11 @@
     "texto": "Soltar no te hace mala persona. Te hace libre. Y quien te quiere, va a entender que a veces soltar también es cuidarte.",
     "hash_imagen": "ffffffffffffffffffffffff8003c00380038001fffffffffffffffffc3fffff",
     "hash_texto": "d5b92ad615daf7de",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:30:53-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-08T12:56:07-03:00",
+    "buffer_id": "6ac7bd12b99c473c41bc3263"
   },
   {
     "id": "20260930-233055-9e8b82",

@@ -825,9 +825,11 @@
     "texto": "El día que dejaste de esperar su mensaje, su cambio, su disculpa... ahí empezó tu paz. Ahí.",
     "hash_imagen": "00000000000000003ff81ff87ffe7ffe1ff00ff00fe007e00000000003c00100",
     "hash_texto": "f86cca4d302dc6d3",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:15-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-07T22:45:19-03:00",
+    "buffer_id": "6ac6f5ac365feab0d738355e"
   },
   {
     "id": "20261005-143217-b30ad4",

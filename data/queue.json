@@ -589,9 +589,11 @@
     "texto": "Hoy no tenés que tener todas las respuestas. Con que no vuelvas a donde te rompiste, ya es un montón.",
     "hash_imagen": "ffffffffffffffffffffffff80018001c007c007c007fffffffffffffc3ffeff",
     "hash_texto": "e047a83cd7713108",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-28T18:29:30-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-08T09:39:39-03:00",
+    "buffer_id": "6ac78f07daf7bb7cba1fa5e7"
   },
   {
     "id": "20260928-182932-8ba165",

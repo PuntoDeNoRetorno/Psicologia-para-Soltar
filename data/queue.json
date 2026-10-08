@@ -843,9 +843,11 @@
     "texto": "Lo soltaste. Y por primera vez en mucho tiempo, pudiste respirar tranquila, sin peso en el pecho. Así se siente sanar.",
     "hash_imagen": "0000000000000000000000000fe0ffff7fff1ff8000000000000000007e00380",
     "hash_texto": "f0f671d1cac7eb21",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:17-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-08T19:41:41-03:00",
+    "buffer_id": "6ac81c1b9db755aaaab8964d"
   },
   {
     "id": "20261005-143223-6a86ad",

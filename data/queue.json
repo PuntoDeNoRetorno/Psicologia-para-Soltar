@@ -687,9 +687,11 @@
     "texto": "No tenés que tener todo resuelto para empezar. Empezás a soltar aunque tengas dudas. La claridad llega después.",
     "hash_imagen": "ffffffffffffffffffffffff00018001f00ff00ffffffffffffffffff81ffeff",
     "hash_texto": "f1995bafedabb579",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:30:57-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-09T12:56:03-03:00",
+    "buffer_id": "6ac90e8f57c4b87d9cf997a3"
   },
   {
     "id": "20260930-233100-5040c1",

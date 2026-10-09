@@ -673,9 +673,11 @@
     "texto": "Si ya te fuiste de ahí llorando una vez, ¿para qué volver? No romantices el lugar donde te rompiste.",
     "hash_imagen": "ffffffffffffffffffffffff80018000800f800ffffffffffffffffffffffc3f",
     "hash_texto": "049f75b009ecbc52",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-09-30T23:30:55-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-09T09:36:06-03:00",
+    "buffer_id": "6ac8dfb3c22cbf9dd5016cfc"
   },
   {
     "id": "20260930-233057-a7d08d",

@@ -857,9 +857,11 @@
     "texto": "Si tenés que rogar para que te elija, ya te eligió. Te eligió no elegirte. ¿Cuántas veces rogaste para que te elijan?",
     "hash_imagen": "000000000000000000007ede7ffe7ffc7ffc7ff87ff800000000000003c00000",
     "hash_texto": "783845498c24c3a1",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:23-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-08T22:46:26-03:00",
+    "buffer_id": "6ac8476e7d9f9f33011f50b0"
   },
   {
     "id": "20261005-143225-a7e66f",

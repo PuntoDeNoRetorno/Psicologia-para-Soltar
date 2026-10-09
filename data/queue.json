@@ -875,9 +875,11 @@
     "texto": "No extrañás su amor. Extrañás la costumbre de rogarle, de esperarlo, de estar pendiente. Y eso no era amor.",
     "hash_imagen": "000000000000000020007ff87ffc7ffe1ff01ff01fe00fe00000000007a00000",
     "hash_texto": "759fa3b83896abc8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:25-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-09T19:41:44-03:00",
+    "buffer_id": "6ac96da4c4de2d2b120ad417"
   },
   {
     "id": "20261005-143226-78a766",

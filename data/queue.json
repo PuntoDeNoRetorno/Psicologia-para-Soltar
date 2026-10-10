@@ -907,9 +907,11 @@
     "texto": "No te quedaste por amor. Te quedaste por miedo a quedarte sola, a empezar de cero, a lo que digan. Y tu cuerpo te lo gritó con ansiedad.",
     "hash_imagen": "0000000000000000000000007ffe7ffe7ffe7f00080000000000000007e00000",
     "hash_texto": "80d6e9191fc9e686",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:28-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-10T19:40:47-03:00",
+    "buffer_id": "6acabeebd9cab260a7dc4172"
   },
   {
     "id": "20261005-143232-e1870c",

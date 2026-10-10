@@ -757,9 +757,11 @@
     "texto": "No estás atrasada. No estás tarde. Estás sanando a tu ritmo y eso no se apura. Guardá esta si te sentís atrasada.",
     "hash_imagen": "ffffffffffffffffe007e0078001c003c003fc3ff81fff7ffffffffff81fffff",
     "hash_texto": "827a2b2226fb7199",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:01-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-10T12:52:13-03:00",
+    "buffer_id": "6aca5f29f91f772d459b1da6"
   },
   {
     "id": "20261005-143203-e82f0d",

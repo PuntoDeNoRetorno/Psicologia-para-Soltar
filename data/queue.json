@@ -889,9 +889,11 @@
     "texto": "Te rompiste entera intentando que la relación no se rompiera. Te hiciste pedazos por sostener algo que ya estaba roto.",
     "hash_imagen": "000000000000000000007ffe7ffe1ff07ffe3ffe0fe000000000000007e00000",
     "hash_texto": "1faad66393516ba8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:26-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-09T22:45:03-03:00",
+    "buffer_id": "6ac9989ac4de2d2b1210d1bc"
   },
   {
     "id": "20261005-143228-6db96a",

@@ -942,5 +942,65 @@
     "estado": "pendiente",
     "agregada": "2026-10-05T14:32:36-03:00",
     "intentos": 0
+  },
+  {
+    "id": "20261011-194136-17f388",
+    "archivo": "20261011-194136-17f388.jpg",
+    "franja": "dia",
+    "brillo": 230.2,
+    "texto": "Hoy no tenés que ser fuerte. Hoy tenés que ser honesta con vos y decir lo que realmente sentís, sin filtro. ¿Qué sentís hoy que no estás diciendo?",
+    "hash_imagen": "ffffffffffffffffffffffff827d8001c003c003fffffffffffffffff81fffff",
+    "hash_texto": "5711bcd6ce4b6ea8",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T19:41:36-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-194139-bb2020",
+    "archivo": "20261011-194139-bb2020.jpg",
+    "franja": "dia",
+    "brillo": 234.8,
+    "texto": "No estás perdiendo tiempo por soltar. Estás recuperando la paz que perdiste intentando sostener lo que ya no te sostenía a vos.",
+    "hash_imagen": "ffffffffffffffffffffffff8faf8001c007c007fffffffffffffffff81fffff",
+    "hash_texto": "b18ac797ec3786ee",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T19:41:39-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-194141-380379",
+    "archivo": "20261011-194141-380379.jpg",
+    "franja": "noche",
+    "brillo": 16.4,
+    "texto": "Tu historia merece ser contada con amor, no con culpa. Dejá de culparte por lo que aguantaste cuando no sabías poner límites.",
+    "hash_imagen": "0000000000000000000000003ff8ffff7ffe3ff000000000000007e007e00000",
+    "hash_texto": "f442ae2087bceeea",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T19:41:41-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-194143-38777f",
+    "archivo": "20261011-194143-38777f.jpg",
+    "franja": "dia",
+    "brillo": 235.9,
+    "texto": "Aprendiste a irte a tiempo. Sin drama, sin escena. Y eso también es amor propio, aunque al principio duela.",
+    "hash_imagen": "ffffffffffffffffffffffffc0038003c003801fc01ffffffffffffffc3fffff",
+    "hash_texto": "409fe64bafc9d406",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T19:41:43-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-194145-067a49",
+    "archivo": "20261011-194145-067a49.jpg",
+    "franja": "noche",
+    "brillo": 10.2,
+    "texto": "Si sentís que tenés que estar demostrando todo el tiempo que valés, que sos suficiente, que lo querés... no te está amando. Te está evaluando.",
+    "hash_imagen": "0000000000000000000042127ffe7ffe7ffe3ff800000000000000000fe00000",
+    "hash_texto": "258046eadfbf47e6",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T19:41:45-03:00",
+    "intentos": 0
   }
 ]

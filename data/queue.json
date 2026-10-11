@@ -939,9 +939,11 @@
     "texto": "No vuelvas a donde te enseñaron que amar es aguantar, sufrir y callar. Amar no es aguantar. Amar es paz.",
     "hash_imagen": "000000000000000000000000fbfeffff3ffc3ff8000000000000000003c003c0",
     "hash_texto": "9e1e664db8af72a8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:36-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-11T19:41:53-03:00",
+    "buffer_id": "6acc10ac7db619a2914db1e7"
   },
   {
     "id": "20261011-194136-17f388",

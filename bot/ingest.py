@@ -1,16 +1,17 @@
 """Lee los mensajes nuevos del bot de Telegram y los agrega a la cola.
 
-Formas de cargar:
-  - Foto con la descripción como pie de foto (lo más cómodo).
-  - Foto sola y a continuación un mensaje de texto: el texto se asigna a la
-    última imagen que quedó sin descripción.
+La descripción es OPCIONAL:
+  - Foto sola  -> queda lista para publicar sin texto.
+  - Foto con pie de foto -> se publica con ese texto.
+  - Foto sola y después un mensaje de texto -> el texto se le agrega a esa foto,
+    siempre que todavía no se haya publicado.
 Opcional: empezar el pie con #dia o #noche para forzar la franja.
 Comandos: /estado  -> cuántas quedan en cola
           /borrar  -> elimina la última imagen cargada (si no se publicó)
 """
 import io
-import uuid
 import re
+import uuid
 
 from PIL import Image, ImageStat
 
@@ -58,7 +59,7 @@ def separar_tag(caption):
 
 def texto_duplicado(queue, texto, ignorar_id=None):
     h = hash_texto(texto)
-    if not h:
+    if not h:  # un texto vacío nunca cuenta como duplicado
         return None
     for e in queue:
         if e["id"] != ignorar_id and e.get("hash_texto") == h:
@@ -103,24 +104,28 @@ def procesar_imagen(queue, data, caption):
         "texto": texto,
         "hash_imagen": huella,
         "hash_texto": hash_texto(texto),
-        "estado": "pendiente" if texto else "sin_texto",
+        "estado": "pendiente",          # lista para publicar, con o sin texto
         "agregada": ahora.isoformat(timespec="seconds"),
         "intentos": 0,
     })
 
     origen = "forzada con #" if forzada else f"detectada, brillo {brillo:.0f}"
-    msg = f"✅ Guardada en {FRANJAS[franja]} ({origen})."
-    if not texto:
-        msg += "\n✍️ Falta la descripción: mandámela ahora como mensaje de texto."
-    tg_send(msg + "\n\n" + resumen_stock(queue))
+    detalle = "con descripción" if texto else "sin descripción"
+    tg_send(f"✅ Guardada en {FRANJAS[franja]} ({origen}, {detalle}).\n\n"
+            + resumen_stock(queue))
 
 
 def asignar_texto(queue, texto):
-    espera = [e for e in queue if e["estado"] == "sin_texto"]
-    if not espera:
-        tg_send("⚠️ Recibí un texto pero no hay ninguna imagen esperando descripción.")
+    """Le pone texto a la última imagen cargada, si todavía no tiene."""
+    pendientes = sorted(
+        (e for e in queue if e["estado"] == "pendiente"), key=lambda e: e["agregada"]
+    )
+    if not pendientes or pendientes[-1].get("texto"):
+        tg_send("⚠️ Recibí un texto suelto, pero la última imagen que cargaste ya "
+                "tiene descripción. Si querés publicar ese texto, mandá primero la "
+                "foto y después el texto.")
         return
-    e = espera[-1]
+    e = pendientes[-1]
     forzada, texto = separar_tag(texto)
     if not texto:
         return
@@ -130,10 +135,10 @@ def asignar_texto(queue, texto):
         return
     e["texto"] = texto
     e["hash_texto"] = hash_texto(texto)
-    e["estado"] = "pendiente"
     if forzada:
         e["franja"] = forzada
-    tg_send(f"✅ Descripción asignada ({FRANJAS[e['franja']]}).\n\n" + resumen_stock(queue))
+    tg_send(f"✅ Descripción agregada a la última imagen ({FRANJAS[e['franja']]}).\n\n"
+            + resumen_stock(queue))
 
 
 def borrar_ultima(queue):
@@ -145,6 +150,16 @@ def borrar_ultima(queue):
     queue.remove(e)
     (MEDIA_DIR / e["archivo"]).unlink(missing_ok=True)
     tg_send(f"🗑️ Borrada la última imagen ({FRANJAS[e['franja']]}).\n\n" + resumen_stock(queue))
+
+
+def migrar_sin_texto(queue):
+    """Las imágenes que habían quedado esperando descripción ya se pueden publicar."""
+    n = 0
+    for e in queue:
+        if e["estado"] == "sin_texto":
+            e["estado"] = "pendiente"
+            n += 1
+    return n
 
 
 def main():
@@ -163,6 +178,9 @@ def main():
         raise SystemExit("Cargá el chat_id de arriba en el secret TELEGRAM_CHAT_ID")
 
     queue = load_queue()
+    if migrar_sin_texto(queue):
+        save_queue(queue)
+
     for u in updates:
         state["offset"] = u["update_id"] + 1
         msg = u.get("message")

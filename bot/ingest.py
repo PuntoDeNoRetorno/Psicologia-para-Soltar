@@ -35,17 +35,44 @@ def clasificar(img):
     return ("noche" if brillo < CONFIG["umbral_brillo"] else "dia"), brillo
 
 
+HASH_N = 32                 # rejilla del hash: 32x32 = 1024 bits
+HASH_HEX = HASH_N * HASH_N // 4
+UMBRAL = 20                 # misma imagen recomprimida ~1; frases distintas >55
+
+
 def ahash(img):
-    """Huella perceptual: detecta la misma imagen aunque Telegram la recomprima."""
-    g = img.convert("L").resize((16, 16), Image.LANCZOS)
+    """Huella perceptual (dhash): sobrevive la recompresión de Telegram pero
+    distingue dos frases distintas sobre el mismo fondo liso."""
+    g = img.convert("L").resize((HASH_N + 1, HASH_N), Image.LANCZOS)
     px = list(g.getdata())
-    prom = sum(px) / len(px)
-    bits = "".join("1" if p > prom else "0" for p in px)
-    return f"{int(bits, 2):064x}"
+    bits = []
+    for fila in range(HASH_N):
+        base = fila * (HASH_N + 1)
+        for col in range(HASH_N):
+            bits.append("1" if px[base + col] > px[base + col + 1] else "0")
+    return f"{int(''.join(bits), 2):0{HASH_HEX}x}"
 
 
 def distancia(a, b):
+    if len(a) != len(b):    # huella de formato viejo: no comparable
+        return 10 ** 6
     return bin(int(a, 16) ^ int(b, 16)).count("1")
+
+
+def rehashear(queue):
+    """Recalcula las huellas guardadas con el formato viejo de 16x16."""
+    n = 0
+    for e in queue:
+        if len(e.get("hash_imagen", "")) == HASH_HEX:
+            continue
+        ruta = MEDIA_DIR / e["archivo"]
+        if ruta.exists():
+            with Image.open(ruta) as im:
+                e["hash_imagen"] = ahash(im)
+        else:
+            e["hash_imagen"] = ""      # sin archivo no se puede comparar
+        n += 1
+    return n
 
 
 def separar_tag(caption):
@@ -74,9 +101,12 @@ def procesar_imagen(queue, data, caption):
     huella = ahash(img)
 
     for e in queue:
-        if distancia(huella, e["hash_imagen"]) <= CONFIG["distancia_max_imagen_duplicada"]:
+        if not e.get("hash_imagen"):
+            continue
+        d = distancia(huella, e["hash_imagen"])
+        if d <= UMBRAL:
             tg_send(f"♻️ Imagen repetida (ya cargada el {e['agregada'][:10]}, "
-                    f"estado: {e['estado']}). La descarté.")
+                    f"estado: {e['estado']}, diferencia {d}). La descarté.")
             return
 
     forzada, texto = separar_tag(caption)
@@ -178,7 +208,7 @@ def main():
         raise SystemExit("Cargá el chat_id de arriba en el secret TELEGRAM_CHAT_ID")
 
     queue = load_queue()
-    if migrar_sin_texto(queue):
+    if migrar_sin_texto(queue) or rehashear(queue):
         save_queue(queue)
 
     for u in updates:

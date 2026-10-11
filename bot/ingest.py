@@ -9,6 +9,7 @@ Opcional: empezar el pie con #dia o #noche para forzar la franja.
 Comandos: /estado  -> cuántas quedan en cola
           /borrar  -> elimina la última imagen cargada (si no se publicó)
 """
+import hashlib
 import io
 import re
 import uuid
@@ -37,7 +38,9 @@ def clasificar(img):
 
 HASH_N = 32                 # rejilla del hash: 32x32 = 1024 bits
 HASH_HEX = HASH_N * HASH_N // 4
-UMBRAL = 20                 # misma imagen recomprimida ~1; frases distintas >55
+# El aviso por parecido está apagado (-1): con frases sobre fondo liso la huella
+# perceptual confunde imágenes distintas. Subilo a 8 o 12 si algún día querés el aviso.
+AVISO_PARECIDA = -1
 
 
 def ahash(img):
@@ -95,19 +98,30 @@ def texto_duplicado(queue, texto, ignorar_id=None):
 
 
 # ---------- procesamiento ----------
-def procesar_imagen(queue, data, caption):
+def procesar_imagen(queue, data, caption, uid=""):
     img = Image.open(io.BytesIO(data))
     img.load()
     huella = ahash(img)
+    sha = hashlib.sha256(data).hexdigest()
 
+    # Duplicado EXACTO: mismo archivo en Telegram o mismos bytes. Sin interpretación.
+    for e in queue:
+        mismo_uid = uid and e.get("uid") == uid
+        mismo_sha = e.get("sha") == sha
+        if mismo_uid or mismo_sha:
+            tg_send(f"♻️ Esta es exactamente la misma imagen que cargaste el "
+                    f"{e['agregada'][:10]} (estado: {e['estado']}). La descarté.")
+            return
+
+    # Parecido: NO descarta, solo avisa por las dudas.
+    parecida = None
     for e in queue:
         if not e.get("hash_imagen"):
             continue
         d = distancia(huella, e["hash_imagen"])
-        if d <= UMBRAL:
-            tg_send(f"♻️ Imagen repetida (ya cargada el {e['agregada'][:10]}, "
-                    f"estado: {e['estado']}, diferencia {d}). La descarté.")
-            return
+        if d <= AVISO_PARECIDA:
+            parecida = (e, d)
+            break
 
     forzada, texto = separar_tag(caption)
     auto, brillo = clasificar(img)
@@ -133,6 +147,8 @@ def procesar_imagen(queue, data, caption):
         "brillo": round(brillo, 1),
         "texto": texto,
         "hash_imagen": huella,
+        "uid": uid,
+        "sha": sha,
         "hash_texto": hash_texto(texto),
         "estado": "pendiente",          # lista para publicar, con o sin texto
         "agregada": ahora.isoformat(timespec="seconds"),
@@ -141,7 +157,13 @@ def procesar_imagen(queue, data, caption):
 
     origen = "forzada con #" if forzada else f"detectada, brillo {brillo:.0f}"
     detalle = "con descripción" if texto else "sin descripción"
-    tg_send(f"✅ Guardada en {FRANJAS[franja]} ({origen}, {detalle}).\n\n"
+    aviso = ""
+    if parecida:
+        e_par, d = parecida
+        aviso = (f"\n⚠️ Se parece mucho (diferencia {d}) a la que cargaste el "
+                 f"{e_par['agregada'][:10]}. La guardé igual; si era repetida, "
+                 f"usá /borrar.")
+    tg_send(f"✅ Guardada en {FRANJAS[franja]} ({origen}, {detalle}).{aviso}\n\n"
             + resumen_stock(queue))
 
 
@@ -224,9 +246,12 @@ def main():
             elif texto.startswith("/borrar"):
                 borrar_ultima(queue)
             elif msg.get("photo"):
-                procesar_imagen(queue, tg_download(msg["photo"][-1]["file_id"]), msg.get("caption", ""))
+                foto = msg["photo"][-1]
+                procesar_imagen(queue, tg_download(foto["file_id"]),
+                                msg.get("caption", ""), foto.get("file_unique_id", ""))
             elif doc.get("mime_type", "").startswith("image/"):
-                procesar_imagen(queue, tg_download(doc["file_id"]), msg.get("caption", ""))
+                procesar_imagen(queue, tg_download(doc["file_id"]),
+                                msg.get("caption", ""), doc.get("file_unique_id", ""))
             elif texto:
                 asignar_texto(queue, texto)
         except Exception as ex:

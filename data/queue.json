@@ -771,9 +771,11 @@
     "texto": "Soltar también es dejar de explicar tu historia a quien ya decidió no entenderte. No gastes tu paz ahí.",
     "hash_imagen": "ffffffffffffffffffffffffe00f800180010001fffffffffffffffff83fffff",
     "hash_texto": "2283bf0119e18828",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:03-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-11T09:36:00-03:00",
+    "buffer_id": "6acb82abed92ed8fa501b123"
   },
   {
     "id": "20261005-143204-a9525f",

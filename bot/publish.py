@@ -1,6 +1,8 @@
 """Publica la imagen más antigua de la franja actual (día/noche) vía Buffer.
 
 Uso: python bot/publish.py [dia|noche]   (sin argumento, decide por la hora)
+El texto es opcional: si la imagen no tiene descripción se usa el valor de
+"texto_por_defecto" en config.json (vacío = publicación de solo imagen).
 Una publicación nunca se repite: al publicarse queda marcada como "publicada"
 en data/queue.json y ya no vuelve a elegirse.
 """
@@ -83,10 +85,11 @@ def main():
 
     e = cola[0]
     url = url_publica(e["archivo"])
+    texto = e.get("texto") or CONFIG.get("texto_por_defecto", "")
     try:
         if not esperar_url(url):
             raise RuntimeError(f"La imagen no es accesible en {url} (¿el repo es público?)")
-        post_id = publicar_en_buffer(e["texto"], url)
+        post_id = publicar_en_buffer(texto, url)
     except Exception as ex:
         e["intentos"] = e.get("intentos", 0) + 1
         if e["intentos"] >= 3:

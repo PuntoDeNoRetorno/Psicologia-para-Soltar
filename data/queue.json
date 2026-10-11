@@ -785,9 +785,11 @@
     "texto": "No necesitás entender por qué te hizo lo que te hizo para poder soltarlo. A veces no hay explicación, solo tenés que irte.",
     "hash_imagen": "ffffffffffffffffffffc007c0038001f81ff00ff00ffffffffffffff81fffff",
     "hash_texto": "92bf5670cbd0a9f1",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:04-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-11T12:53:19-03:00",
+    "buffer_id": "6acbb0ebed92ed8fa50a57dd"
   },
   {
     "id": "20261005-143210-4e1ee4",

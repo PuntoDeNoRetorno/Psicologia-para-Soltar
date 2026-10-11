@@ -1208,5 +1208,61 @@
     "estado": "pendiente",
     "agregada": "2026-10-11T20:31:27-03:00",
     "intentos": 0
+  },
+  {
+    "id": "20261011-204935-ce39c9",
+    "archivo": "20261011-204935-ce39c9.jpg",
+    "franja": "noche",
+    "brillo": 0.7,
+    "texto": "",
+    "hash_imagen": "000000000000000008080880000000000972ca80999a52d0099d48c0000006009d8956c0899934684b13a5684b93a4e8499926d04b91aa684b12a5684b99aa6849892ad08d2ad59d9daad52d9daad52d19a6dd2d08a6452f95a6552d92a555ae0a953592000000000ab5148a0000000000000000000000000000003600000026",
+    "uid": "AgADbAoAAqXAYEY",
+    "sha": "0862765b5fc9a18590371890871d86912718e0aa2f18a7fb29d70d0afa207c7f",
+    "hash_texto": "",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T20:49:35-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-204937-69fbb1",
+    "archivo": "20261011-204937-69fbb1.jpg",
+    "franja": "dia",
+    "brillo": 227.2,
+    "texto": "",
+    "hash_imagen": "442024a94080908530822c940402a88a42a2500591050c15d01944848b32ba69b4c95290b4a55293b2b55a95b8b5aa81acc9ad8cb556bab2b5573a42b5573b42b576a5b2a5aa6ca5a5faaac4ad72f184b4a89444b2aa84a4bc552f0440a5403820112882a144491101046050249000999486129410492403806411844224c5c4",
+    "uid": "AgADbQoAAqXAYEY",
+    "sha": "fb25ae6aed3ab2f836319cb13876f6bb47b1490980facc42a3692ff19d0f2135",
+    "hash_texto": "",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T20:49:37-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-204939-3baa05",
+    "archivo": "20261011-204939-3baa05.jpg",
+    "franja": "noche",
+    "brillo": 10.9,
+    "texto": "",
+    "hash_imagen": "0000000009a2444c6650120289a7654d98b24cdda2b246929ab24e929ab26c9d4ab2e69daab2b692b2b6d2908ab2a69b999aa68b40000000954a9516936eb516966a75349553b53595d197469a9523559ad52b7599b52b5d89aba78e06091666584649180a012404000000000000000000000000000000220000021b0000005a",
+    "uid": "AgADbgoAAqXAYEY",
+    "sha": "3f7a09581adc8b691cf45b37bc30e1dd4bc2c32c599dbbe24b8a936bb29f4a83",
+    "hash_texto": "",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T20:49:39-03:00",
+    "intentos": 0
+  },
+  {
+    "id": "20261011-204940-434b2e",
+    "archivo": "20261011-204940-434b2e.jpg",
+    "franja": "dia",
+    "brillo": 231.6,
+    "texto": "",
+    "hash_imagen": "1115a409446a4cca3b967323b5166a31b5366a21b5356a26b5756a44b12d220c3ab6d362b2a8db6ab328e72ab324e6a2b2a6caaa32a652aa2b68b254ab4c92d1bb4ca29cb33aac40b69b6d52b29bad521128ca8a4496321500096888224500490024048d4401000504042246802504048145048201224011025681a40040a184",
+    "uid": "AgADbwoAAqXAYEY",
+    "sha": "afc75b12bd1cdda4c57199103a77a3898eb2f2597e7a811ec43f94ebf432fe1c",
+    "hash_texto": "",
+    "estado": "pendiente",
+    "agregada": "2026-10-11T20:49:40-03:00",
+    "intentos": 0
   }
 ]

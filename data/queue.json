@@ -921,9 +921,11 @@
     "texto": "Lo que te hace dudar de tu valor todos los días, lo que te hace sentir que no sos suficiente, no es amor. Es castigo.",
     "hash_imagen": "0000000000000000000000004180ffff1ff80ff000000000000007e007e00000",
     "hash_texto": "fa0307fb14ab8281",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-05T14:32:32-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-10T22:44:31-03:00",
+    "buffer_id": "6acae9fcb07d37ac979075ff"
   },
   {
     "id": "20261005-143236-92edf3",

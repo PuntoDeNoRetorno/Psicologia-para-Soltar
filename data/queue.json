@@ -955,9 +955,11 @@
     "texto": "Hoy no tenés que ser fuerte. Hoy tenés que ser honesta con vos y decir lo que realmente sentís, sin filtro. ¿Qué sentís hoy que no estás diciendo?",
     "hash_imagen": "00442002000040000020402004004084004004240000428000010004012044008045040020090402402120004048000836b60294484b64696d4d19d865acd9d4014c652b2e4b33480ed33388410ccdb0424312420288888290c820422040449104810002400024020010001082094c2021b4b0222034b20002430c0012121248",
     "hash_texto": "5711bcd6ce4b6ea8",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T19:41:36-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-12T09:54:11-03:00",
+    "buffer_id": "6accd8708130a0adb8ed0cb8"
   },
   {
     "id": "20261011-194139-bb2020",

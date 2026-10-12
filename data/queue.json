@@ -969,9 +969,11 @@
     "texto": "No estás perdiendo tiempo por soltar. Estás recuperando la paz que perdiste intentando sostener lo que ya no te sostenía a vos.",
     "hash_imagen": "1002022450240000404205441050000a13001101000404140000449282000088d04105204100041004001212011201801610098069a6b656684933496e4b337051026cb65138a6095db1b5140a524dc3510ca2010100090500242191c80820c449111020420041004120900400914442406891601074910a80014612421c4054",
     "hash_texto": "b18ac797ec3786ee",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T19:41:39-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-12T12:56:47-03:00",
+    "buffer_id": "6acd033cba9a2573f1965ba9"
   },
   {
     "id": "20261011-194141-380379",

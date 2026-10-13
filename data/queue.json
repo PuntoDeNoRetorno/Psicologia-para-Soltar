@@ -1035,9 +1035,11 @@
     "texto": "Dejaste de rogar y ahí entendiste todo: nunca te habían elegido de verdad. Solo te tenían ahí por si acaso. ¿Te pasó?",
     "hash_imagen": "0244a1480182028000e0894440920c60601539042849219042114011b0302951042842a54190812121408c692826480112b4f2b7c9490d686d2c59d46524c93c0e4b330a6ed97381012c889409511a0889451110c10a804890429021650410810224484000109242848112135001241000404c45015a2491448a048204805242",
     "hash_texto": "0996161c6642a532",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:01-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-13T16:18:06-03:00",
+    "buffer_id": "6ace83ea910b59e1bcd8f496"
   },
   {
     "id": "20261011-203103-8af9da",

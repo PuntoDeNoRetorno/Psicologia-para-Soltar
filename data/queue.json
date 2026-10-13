@@ -997,9 +997,11 @@
     "texto": "Aprendiste a irte a tiempo. Sin drama, sin escena. Y eso también es amor propio, aunque al principio duela.",
     "hash_imagen": "000000210000002200000484000002000008000040000008004800000804000022100100228000104c23298110d4925ad3248b443b3a89422ddcc972b35b4464d68a5a525288d9523c6a71acbb4cd480b35ad4a14cb24900100c200260000200040009000410000004000020040400400430200000b4b2020106100014002000",
     "hash_texto": "409fe64bafc9d406",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T19:41:43-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-13T05:11:03-03:00",
+    "buffer_id": "6acde7904aba7ee8072d9afd"
   },
   {
     "id": "20261011-194145-067a49",

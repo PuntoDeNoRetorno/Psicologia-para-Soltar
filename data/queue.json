@@ -987,9 +987,11 @@
     "texto": "Tu historia merece ser contada con amor, no con culpa. Dejá de culparte por lo que aguantaste cuando no sabías poner límites.",
     "hash_imagen": "00000000000000000000000000000000000000000000000000000000000000000000000000200800084a306007354b8026ba0c6ac28ecd643d33559b329674db3b927253e6c66ba426c697c119519a4000a825000000000000000000000000000000000000110400006a900000956e0000936682006a90000005040000000000",
     "hash_texto": "f442ae2087bceeea",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T19:41:41-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-13T22:18:44-03:00",
+    "buffer_id": "6aced86ff847f2ad9eba0249"
   },
   {
     "id": "20261011-194143-38777f",

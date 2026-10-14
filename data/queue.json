@@ -1091,9 +1091,11 @@
     "texto": "NO ESTÁS PERDIENDO. TE ESTÁS SALVANDO. No estás perdiendo a nadie. Te estás salvando a vos. Repetilo hoy.",
     "hash_imagen": "4c19cca878b059b16262b26166c864cbc0d0c8c0d0a0ccd0c084c4d4e0d4c4cc60e9707815534aa66aa8b55962f7a559b263c559b241e9093ba932d9765e4121a19524cda1a944d8e1e964cc61e944e469b5305864d6d3a56cb6d28562b6da4572b6c86574aaf79164c935a8cb96c8c5d090dcd8d090d4d4c8c4ccc4e0e068e0",
     "hash_texto": "4ae7ce72fa152824",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:09-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-14T14:11:33-03:00",
+    "buffer_id": "6acfb7c188481a0819e1bca3"
   },
   {
     "id": "20261011-203111-bed2dd",

@@ -1117,9 +1117,11 @@
     "texto": "SOLTASTE. Y por primera vez respiraste en paz. Ese es el premio. No es tristeza. Es paz por primera vez en meses.",
     "hash_imagen": "021121144651092150110505130528240a049211084b298812951212b3b55552b9b94dca3bb1adb2b555549235651a92d6a51e10d5555086555451e98ee6da59369c94a2b5590cb236592e92aad8d956289ada516939125967e7ec82befc4002b1c01b1e0f0b6042a020490842a4888a444484828512105c0222a6ac544a8ca4",
     "hash_texto": "87b6699c3bfce670",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:13-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-14T16:41:16-03:00",
+    "buffer_id": "6acfdad8f69efaca8e682761"
   },
   {
     "id": "20261011-203114-70d9ab",

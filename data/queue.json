@@ -1015,9 +1015,11 @@
     "texto": "Si sentís que tenés que estar demostrando todo el tiempo que valés, que sos suficiente, que lo querés... no te está amando. Te está evaluando.",
     "hash_imagen": "000000000000000000000000000000000000000000000000000000000000000000000000300c0104c132c45238cd2bac3cacd9571d24d9572c49b92e3a59952f195a956f8729871252ad66ec12a562e80152a5a006841240004000800000000000000000000000000000220000c89800012567000113674000ca988000250500",
     "hash_texto": "258046eadfbf47e6",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T19:41:45-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-14T03:32:56-03:00",
+    "buffer_id": "6acf22110ab87a16c8e6e1c8"
   },
   {
     "id": "20261011-203059-1d6b05",

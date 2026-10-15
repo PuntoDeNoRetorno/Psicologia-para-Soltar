@@ -1185,9 +1185,11 @@
     "texto": "Si te cuesta respirar ahí, no es tu lugar. Si te da nudo en el pecho, ansiedad, insomnio... tu cuerpo ya te dijo que no es ahí.",
     "hash_imagen": "844821118112188218008803001048010042492418a4111023532ad158a4d5245aabd524dcabdb2458ad52905aa5ed945ab5ad945aedad905e8b4e88da562ae5da562ca458572ca45c572b805a552a5259a8d5a282412a4c1001444040510c100080c0222264920905002888200512144a0108000a0108ab108243c44a400304",
     "hash_texto": "285479a83372074a",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:21-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-15T16:22:21-03:00",
+    "buffer_id": "6ad127e9e8f41b92261ecce8"
   },
   {
     "id": "20261011-203122-8d6403",

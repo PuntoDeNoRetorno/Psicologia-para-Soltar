@@ -1147,9 +1147,11 @@
     "texto": "Dejá de explicar lo que te duele a quien te hizo doler. No va a entender tu dolor quien se benefició de causarlo.",
     "hash_imagen": "442024a94080908530822c940402a48a42a2500591010c95d01944848b32bb69b4c95290b4a55293b2b55a95b8b5aa81acc9ad88b556bab2b5573a42b5573b42b576a5b225aa6ca5a5faaac4ad72f184b4a89444b2aa84a4bc542f0440a5403810112882a144491101046050249000999486129410492403806411844224c5c4",
     "hash_texto": "79a517601917823e",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:16-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-15T14:02:38-03:00",
+    "buffer_id": "6ad10724accae0c0befa3a33"
   },
   {
     "id": "20261011-203118-e67213",

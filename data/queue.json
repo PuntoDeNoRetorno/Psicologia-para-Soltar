@@ -1057,9 +1057,11 @@
     "texto": "Te acostumbraste tanto a pedir perdón por poner un límite, por decir que no, por cuidarte... que pensaste que poner límites estaba mal. No lo está.",
     "hash_imagen": "00000000000000000000000000000000000000000000000000000000000000000000000010001000648864969b6712699d9695761c8cad361532d53623394b8865134b849546b9b08b2a99d8924a9b5a14d564204b2280580000000000000000000000000000000000000000004a18000035250001136700004ad20000250000",
     "hash_texto": "a998b2a0bc9ad322",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:03-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-15T03:15:27-03:00",
+    "buffer_id": "6ad06f7af702624d49f061ed"
   },
   {
     "id": "20261011-203106-671136",

@@ -1071,9 +1071,11 @@
     "texto": "NO FUE AMOR si tuviste que rogar para quedarte. El amor no se ruega. El amor se queda solo. ¿Cuántas veces rogaste vos?",
     "hash_imagen": "000000000000000008080880000000000972ca80999a52d0099d48c0000006009d8956c0899934684b13a5684b93a4e8499926d04b91aa684b12a5684b99aa6849892ad08d2ad59d9daad52d9daad52d19a6dd2d08a6452f95a6552d92a555ae0a953592000000000ab5148a0000000000000000000000000000003600000026",
     "hash_texto": "3ff6adbee3aa619f",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:06-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-15T21:31:58-03:00",
+    "buffer_id": "6ad1707bfb64fffcf1a957b5"
   },
   {
     "id": "20261011-203108-a56f76",

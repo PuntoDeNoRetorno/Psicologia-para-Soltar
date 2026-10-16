@@ -1085,9 +1085,11 @@
     "texto": "Si tenés que rogarlo, no es amor. Es limosna. Y vos no naciste para pedir limosna de amor. ¿Te hizo rogar por lo básico?",
     "hash_imagen": "0000000009a2444c6650120289a7654d98b24cdda2b246929ab24e929ab26c9d4ab2e69daab2b692b2b6d2908ab2a69b999aa68b40000000954a9516936eb516966a75349553b53595d197469a9523559ad52b7599b52b5d89aba78e06091666584649180a012404000000000000000000000000000000220000021b0000005a",
     "hash_texto": "8e7cafdb70eda425",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:08-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-16T03:11:20-03:00",
+    "buffer_id": "6ad1bffea82f34dbe14b5bf8"
   },
   {
     "id": "20261011-203109-16c7c0",

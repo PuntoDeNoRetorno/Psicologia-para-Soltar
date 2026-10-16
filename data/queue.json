@@ -1203,9 +1203,11 @@
     "texto": "Si te hace sentir que molestás por preguntar, por llorar, por pedir... no es amor. Es rechazo disfrazado de amor.",
     "hash_imagen": "1915a409446a4cca3b967323b5166a31b5366a21b5356a26b5756a44b12d220c3ab6d362b2a8db6ab328e72ab324e6a2b2a6caaa32a652aa2b68b254ab4c92d1bb4ca29cb33aac40b69b6d52b29bad521128ca8a4c96301500096888224500890024048d4401000504042246802504048145048201225011025681a40040a584",
     "hash_texto": "54d0d9b1b69410ac",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:22-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-16T13:40:23-03:00",
+    "buffer_id": "6ad25373a019d2e11b77f4c5"
   },
   {
     "id": "20261011-203124-129796",

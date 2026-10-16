@@ -1217,9 +1217,11 @@
     "texto": "Te quedaste donde te dolía por miedo a empezar de cero. Por miedo a lo que digan, a quedarte sola. Y eso no es amor, es miedo.",
     "hash_imagen": "20e103812b810e114f019cd12e51b80a5c91700898487285b182d6043310c5043408c0b2b0acd2133084c6121120c89a76dcb561364db5a24fc96c89b9955b69b1b4db51b1895ad93c8b49a93384b65147395c87de6a791a9c2862c214ace29435c0c68032a8ccc13440c812b004d9123400d2603504c21398816b444c80f345",
     "hash_texto": "df319f83a5f29272",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:24-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-16T16:01:39-03:00",
+    "buffer_id": "6ad27489d3034350e4711555"
   },
   {
     "id": "20261011-203125-5fc5da",

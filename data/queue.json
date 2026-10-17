@@ -1141,9 +1141,11 @@
     "texto": "No volvió porque te extrañe. Volvió porque te perdió y se dio cuenta. No es lo mismo extrañar que tener miedo a perderte. ¿Te volvió a buscar así?",
     "hash_imagen": "0000000000000000000000000000000000000000000000000000000000000000112402106c99316093664e989354a25a9b54b25a992c4eda9e9ccc5a95ccdd5d9b6555b49769549a936b74da992b555a974d59bd8a459aad75ba4550000000080000000000000000000000000000020000000002000000440000011b0000000b",
     "hash_texto": "3655eca1446e9004",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:14-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-17T02:56:49-03:00",
+    "buffer_id": "6ad30e17c34368e4b0abf4b3"
   },
   {
     "id": "20261011-203116-094b38",

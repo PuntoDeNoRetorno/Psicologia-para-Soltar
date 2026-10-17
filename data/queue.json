@@ -1113,9 +1113,11 @@
     "texto": "Si te da ansiedad todos los días, no es ahí. Tu cuerpo no miente. Si ahí te duele el pecho, no es tu lugar.",
     "hash_imagen": "00820040800002004000020404a000000000022400000000000000000000000008aa426c20000000499a566c4968d46d4d29caad44dbea944d56d0004c45fa04456aa55149a2a5914b22cd9a4dabd49a49a9d25f4d9ca56e02415a9e2000000000000004000001000010120040000800800000a900080200000000bb004000bb",
     "hash_texto": "e68795fbe4a3cc36",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:11-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-16T21:40:02-03:00",
+    "buffer_id": "6ad2c3de1694d771d51285da"
   },
   {
     "id": "20261011-203113-3b4567",

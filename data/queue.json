@@ -1169,9 +1169,11 @@
     "texto": "No extrañás. Estás dejando la costumbre. Lo que sentís no es amor, es abstinencia de lo que se hizo costumbre.",
     "hash_imagen": "00000000000000000000000006080600000000004a4aab400a2aa2c02a6ab3002a2132e024a8d66822488a68252cd4e80000000002095a6600000000aa0d59369233528ea67356aeae1552669c62331095e7753a95a5656895e4756995e6756b9585456995e5756a8c633592000000000c63149200000000000000ab000000bb",
     "hash_texto": "e7c6bd5d659e1fca",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:18-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-17T21:08:00-03:00",
+    "buffer_id": "6ad40ddc769b4579349cfc6b"
   },
   {
     "id": "20261011-203119-146569",

@@ -1183,9 +1183,11 @@
     "texto": "No fue tu culpa. Pero sí es tu sanación. No fue tu culpa lo que te hicieron, pero sí es tu poder sanarlo ahora.",
     "hash_imagen": "00000000000000000000000000000000000000000000000000000000000000000c08844c200000001518ad4d8dc9b56d8d699aea4e65e6bc9aaca5b492ccad3c9bad3534916d563c0ca4c534499249804d2a4ab00d9249a09d6a56e094a936604200080014a93240000000000000000000000001000001000000001900000019",
     "hash_texto": "1d3233de7f491e9c",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:19-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-18T03:24:47-03:00",
+    "buffer_id": "6ad4662b6d56c60a73fb3b58"
   },
   {
     "id": "20261011-203121-a6e38f",

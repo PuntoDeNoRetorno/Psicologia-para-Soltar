@@ -1239,9 +1239,11 @@
     "texto": "Soltar duele un día. Quedarte te duele todos. Elegí el dolor que termina, no el que te acompaña todos los días.",
     "hash_imagen": "00000000000000008000000000000000000000000080000000000002000000000904004064b08a809b0e71600a6923682ca9556095524b805248cba04a6d4b204a6d6b80492449201b76d3345b36dad41334cad45ad5213a4a4b312835344ed00a41210000000000000000080000000022000008220010c00000011b0000010b",
     "hash_texto": "c5759ffc3b18f2db",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:25-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-18T21:19:43-03:00",
+    "buffer_id": "6ad5621b769b457934e5ff0e"
   },
   {
     "id": "20261011-203127-262872",

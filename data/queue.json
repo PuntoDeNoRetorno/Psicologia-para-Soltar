@@ -1253,9 +1253,11 @@
     "texto": "Te fuiste llorando. Volviste brillando. Así es el proceso. Primero llorás, después brillás más fuerte que nunca.",
     "hash_imagen": "000000000000000000000002022148801912960006ad6980222548d027234cd009a85366600088018a9b22269ab5354eb2b5354eb2b5574eb2a455498db3554e859a1e369b9236705b9636625b9636745a1636485b9cb274999999349aab98005aaeea305aaeb4005aaed9005aaade005999b680244449801999b62b0000221b",
     "hash_texto": "59e12712b843b34f",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-11T20:31:27-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-19T03:36:10-03:00",
+    "buffer_id": "6ad5ba55aa3b6d94b204ccf1"
   },
   {
     "id": "20261011-204935-ce39c9",

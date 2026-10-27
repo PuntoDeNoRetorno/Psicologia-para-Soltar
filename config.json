@@ -5,7 +5,7 @@
   "umbral_brillo": 110,
   "hora_inicio_dia": 5,
   "hora_fin_dia": 17,
-  "publicaciones_por_franja_por_dia": 2,
+  "publicaciones_por_franja_por_dia": 1,
   "alerta_dias_restantes": 3,
   "distancia_max_imagen_duplicada": 6
 }

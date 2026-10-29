@@ -1923,9 +1923,11 @@
     "uid": "AgADOgcAAg9IeEY",
     "sha": "2054434e843b146c1ec737cc109144d1f02807d21aa1482ce9756c194e9427e1",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:48-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-29T15:53:28-03:00",
+    "buffer_id": "6ae3962331868ec16fbf653e"
   },
   {
     "id": "20261013-221550-da0648",

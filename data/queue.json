@@ -1955,9 +1955,11 @@
     "uid": "AgADPQcAAg9IeEY",
     "sha": "1635595895a458ae1f7611aee3ca10a83ff7150508eaf25f100d29c4e0171371",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:52-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-30T15:30:58-03:00",
+    "buffer_id": "6ae4e25734702c2daac5e42f"
   },
   {
     "id": "20261013-221553-53e10a",

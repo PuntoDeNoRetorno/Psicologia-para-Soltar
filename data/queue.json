@@ -1941,9 +1941,11 @@
     "uid": "AgADOwcAAg9IeEY",
     "sha": "c10bbe6f311ba09c53e1d54901ece5d3fb58335565bca71eb9638aa23400f571",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:50-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-30T22:59:30-03:00",
+    "buffer_id": "6ae54b7feaa24d6f9a4dc9c2"
   },
   {
     "id": "20261013-221552-57a4a0",

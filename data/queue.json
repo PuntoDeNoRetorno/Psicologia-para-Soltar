@@ -2019,9 +2019,11 @@
     "uid": "AgADQQcAAg9IeEY",
     "sha": "c7f52aa4b99abfff224ff576933513dc562033ac2107914e5978cbb0c5cc5f3e",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:59-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-11-01T15:20:46-03:00",
+    "buffer_id": "6ae782f94c17af1b871680b1"
   },
   {
     "id": "20261013-221601-5e74ee",

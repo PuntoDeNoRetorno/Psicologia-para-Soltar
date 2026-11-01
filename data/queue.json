@@ -1973,9 +1973,11 @@
     "uid": "AgADPgcAAg9IeEY",
     "sha": "b8e46639609fb1446bc4c3a022f4b20150d4cacfa4786d6916125e2a29f0471b",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:53-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-10-31T22:49:53-03:00",
+    "buffer_id": "6ae69abdf0984eef33408bdc"
   },
   {
     "id": "20261013-221555-4a5ded",

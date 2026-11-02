@@ -2005,9 +2005,11 @@
     "uid": "AgADQAcAAg9IeEY",
     "sha": "03409c0810a1704dfc1e5f620d65690b487679207b06602a47593433d2ac0bbb",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-13T22:15:57-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-11-01T23:04:31-03:00",
+    "buffer_id": "6ae7efabd016796999024929"
   },
   {
     "id": "20261013-221559-a6f0b3",

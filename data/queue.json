@@ -2723,9 +2723,11 @@
     "uid": "AgAD-QgAAsCWCUc",
     "sha": "dc18c51f0c6234f1288a3da3d863d99e2961a36ed7aef39e1c594e91b16fc5be",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-27T19:59:17-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-11-16T19:48:35-03:00",
+    "buffer_id": "6afb883f797935b975c5ab5a"
   },
   {
     "id": "20261027-195919-13299b",

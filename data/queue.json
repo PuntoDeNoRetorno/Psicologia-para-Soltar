@@ -2843,9 +2843,11 @@
     "uid": "AgADAQkAAsCWCUc",
     "sha": "8d5f6d1b3bd9e2ab4db0f016cb057680366126cc4de62dae00d4cf240203f772",
     "hash_texto": "",
-    "estado": "pendiente",
+    "estado": "publicada",
     "agregada": "2026-10-27T19:59:30-03:00",
-    "intentos": 0
+    "intentos": 0,
+    "publicada": "2026-11-18T18:15:31-03:00",
+    "buffer_id": "6afe15700d8c064ce4d80718"
   },
   {
     "id": "20261027-195932-af1032",

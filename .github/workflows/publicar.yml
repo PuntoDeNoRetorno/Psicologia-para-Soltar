@@ -3,8 +3,9 @@ name: Publicar en Facebook
 on:
   schedule:
     # Horarios en UTC (Argentina = UTC-3)
-    - cron: "0 13 * * *"    # 10:00 ARG - dia (beige)
-    - cron: "0 23 * * *"    # 20:00 ARG - noche (negro)
+    # Si cambiás estos horarios, cambialos también en el paso "Publicar" de abajo.
+    - cron: "7 13 * * *"    # 10:07 ARG - dia (beige)
+    - cron: "7 23 * * *"    # 20:07 ARG - noche (negro)
   workflow_dispatch:
     inputs:
       franja:
@@ -46,7 +47,15 @@ jobs:
           git diff --cached --quiet || (git commit -m "Ingesta previa" && git pull --rebase && git push)
 
       - name: Publicar
-        run: python bot/publish.py ${{ github.event.inputs.franja != 'auto' && github.event.inputs.franja || '' }}
+        run: |
+          # La franja depende de QUÉ horario disparó la corrida, no de la hora real
+          # (GitHub a veces atrasa varias horas el turno de la mañana).
+          FRANJA="${{ github.event.inputs.franja }}"
+          if [ "${{ github.event.schedule }}" = "7 13 * * *" ]; then FRANJA="dia"; fi
+          if [ "${{ github.event.schedule }}" = "7 23 * * *" ]; then FRANJA="noche"; fi
+          if [ "$FRANJA" = "auto" ]; then FRANJA=""; fi
+          echo "Franja elegida: ${FRANJA:-por hora}"
+          python bot/publish.py $FRANJA
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
